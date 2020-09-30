@@ -4,3 +4,7 @@
 .settings/org.eclipse.m2e.core.prefs
 1.1-spark/.settings/org.eclipse.m2e.core.prefs
 .vscode/settings.json
+1.1-spark/.classpath
+1.1-spark/.settings/org.eclipse.core.resources.prefs
+1.1-spark/.settings/org.eclipse.jdt.apt.core.prefs
+1.1-spark/.settings/org.eclipse.jdt.core.prefs
