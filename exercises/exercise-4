@@ -1,0 +1,9 @@
+9. Count the words and provide a word, count pair with Java 8 APIs
+
+JavaPairRDD countData = wordsFromFile.mapToPair(t -> new Tuple2(t, 1)).reduceByKey((x, y) -> (int) x + (int) y);
+
+10. Finally save the countData object to a text file
+
+countData.saveAsTextFile(outputFilename);
+
+11. Test the program with the sample input data.

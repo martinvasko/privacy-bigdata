@@ -1,0 +1,8 @@
+Step 1: Ingest a CSV list of restaurants
+1.1: Create a class named IngestionSchemaManipulationApp 
+1.2: Add a method start() in class IngestionSchemaManipulationApp that takes a parameter named source from type String
+1.3: Create a class named App
+1.4: Add a method main() in class App
+1.5: Instantiate a new object from class IngestionSchemaManipulationApp in method main()
+1.6: Create a SparkSession with appName: „Load Restaurants“master: „local“
+1.7: Read the source file with format „csv“ as a DataSet<Row>

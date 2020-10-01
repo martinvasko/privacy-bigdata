@@ -1,0 +1,4 @@
+Step 3: Re-partition the dataframe
+3.1: Count the current active partitions through the rdd() method of your dataframe
+3.2: Repartition the dataframe to 4
+3.3: Check the count of the current active partitions again

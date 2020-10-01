@@ -1,0 +1,13 @@
+6. Setup the Spark Context JavaSparkContext
+
+SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("Word Counter");
+JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
+
+7. Convert the input into a Resilient Distributed Dataset JavaRDD
+
+JavaRDD<String> inputFile = sparkContext.textFile(inputFilename);
+
+8. Split the words in the input file into seperate words by the use of Java 8 APIs
+
+JavaRDD<String> wordsFromFile = inputFile.flatMap(content -> Arrays.asList(content.split(" ")).iterator());
+

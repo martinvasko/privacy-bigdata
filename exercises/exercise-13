@@ -1,0 +1,5 @@
+Step 4: Union both dataframes
+Explore all available union methods
+
+Link to the Dataset API: 
+https://spark.apache.org/docs/latest/api/java/index.html?org/apache/spark/sql/Dataset.html

@@ -1,0 +1,20 @@
+Step 2: Transform the dataframe
+2.1: 
+new column „county“
+
+„HSISID"                        "datasetId"
+„NAME“                          "name"
+„ADDRESS1"                      "address1"
+„ADDRESS2"                      "address2"
+„CITY"                          "city"
+„STATE"                         "state"
+„POSTALCODE"                    "zip"
+„PHONENUMBER"                   "tel"
+„RESTAURANTOPENDATE"            "dateStart"
+„FACILITYTYPE"                  "type"
+„X"                             "geoX"
+„Y"                             „geoY"
+
+Delete "OBJECTID"
+Delete "PERMITID"
+Delete „GEOCODESTATUS"

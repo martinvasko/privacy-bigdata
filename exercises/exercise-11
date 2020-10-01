@@ -1,0 +1,20 @@
+Step 2: Transform the dataframe
+2.1: 
+
+new column „county“
+
+„fields.id“                                  "datasetId"
+„fields.premise_name“                        "name"
+„fields.premise_address1“                    "address1"
+„fields.premise_address2„                    "address2"
+„fields.premise_city„                        "city"
+„fields.premise_state“                       "state"
+„fields.premise_zip“                         "zip"
+„fields.premise_phone“                       "tel"
+„fields.opening_date“                        "dateStart"
+„fields.closing_date„                        "dateEnd"
+„fields.type_description“                    "type"
+„Fields.geolocation“                         „geoX"
+„fields.geolocation“                         „geoY“
+
+2.2: The id field is the same operation as in the CSV file

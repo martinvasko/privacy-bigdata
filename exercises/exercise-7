@@ -1,0 +1,9 @@
+Step 2: Transform the dataframe
+2.2: Build a unique identifier for each record
+
+Call it id and concatenate it from the following:
+1. The state
+2. An underscore _
+3. The county
+4. An underscore _
+5. The identifier within the dataset

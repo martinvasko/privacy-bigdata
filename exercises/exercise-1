@@ -1,0 +1,11 @@
+1. Clone the repo from https://github.com/martinvasko/privacy-bigdata
+git clone https://github.com/martinvasko/privacy-bigdata
+
+2. Run 
+mvn package
+
+3. Change to directory 1.0-spark
+cd 1.0-spark
+
+4. Analyse the dependencies of Apache Spark
+mvn dependency:tree
